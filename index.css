@@ -1,0 +1,205 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url('pexels-fwstudio-129731.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ h1,h2,h3,h4{
+     margin: 0;
+     padding: 0;
+ }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+header .name h1{
+    font-family: cursive;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+header .logo img{
+    height: 8vh;
+}
+header .contact img{
+    height: 4vh;
+}
+
+
+
+.sample{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    min-height: 300px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.sample .menu-box{
+    display: block;
+    width: 33.33%;
+    height: 400px;
+    border: 1px solid black;
+}
+.menu-box nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: rgb(186, 226, 226);
+}
+.menu-box nav img{
+    height: 4vh;
+}
+
+
+
+.sample2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    min-height: 300px;
+    margin: 5px auto;
+    padding: 5px;
+}
+.menu-box2 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: rgb(186, 226, 226);
+}
+
+.menu-box2{
+    display: block;
+    width: 33.33%;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.menu-box2 nav img{
+    height: 4vh;
+}
+
+
+/*styling images of menu boxes*/
+#meal-1{
+    width: 100%;
+    height: 339px;
+}
+#meal-2{
+    width: 100%;
+    height: 339px;
+}
+#meal-3{
+    width: 100%;
+    height: 339px;
+}
+#meal-4{
+    width: 100%;
+    height: 339px;
+}
+
+
+/*styling link*/
+.sample a{
+    text-decoration: none;
+    color: black;
+}
+
+.sample2 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width:1300px){
+    .sample .menu-box{
+        display: block;
+        width: 33.33%;
+        height: 350px;
+        border: 1px solid black;
+    }
+    #meal-1{
+        width: 100%;
+        height: 289px;
+    }
+    #meal-2{
+        width: 100%;
+        height: 289px;
+    }
+    #meal-3{
+        width: 100%;
+        height: 289px;
+    }
+    #meal-4{
+        width: 100%;
+        height: 289px;
+    }
+
+
+    .menu-box2{
+        display: block;
+        width: 33.33%;
+        height: 350px;
+        border: 1px solid black;
+    }
+  
+}
+
+@media screen and (max-width:1000px){
+    header{
+        background-image: url('pexels-fwstudio-129731.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    body,html{
+        background-image: none;
+    }
+    .sample{
+        display: block;
+        
+    }
+    .sample .menu-box{
+        display: block;
+        width: 350px;
+        height: 350px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    #meal-1{
+        width: 100%;
+        height: 289px;
+    }
+    #meal-2{
+        width: 100%;
+        height: 289px;
+    }
+
+    .sample2{
+        display: block;
+    }
+    .menu-box2{
+        width: 350px;
+        margin: 0 auto 5px;
+    }
+}
